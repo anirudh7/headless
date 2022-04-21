@@ -1,6 +1,7 @@
 import { ItsnzSpeaker as SpeakerType } from "client";
 import styles from "scss/pages/posts.module.scss";
 import Image from "next/image";
+import Link from "next/link";
 
 interface SpeakerProps {
   speaker: SpeakerType;
