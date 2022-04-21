@@ -2,15 +2,19 @@
 
 @import "scss/variables";
 
+#image {
+  width: 25%;
+}
+
 #post_list {
-	padding: 5em 0 6em;
-	background-color: $color-light-gray;
+  padding: 5em 0 6em;
+  background-color: $color-light-gray;
 }
 
 @media screen and (min-width: $breakpoint-medium) {
-	#post_list :global(.posts) {
-		display: grid;
-		column-gap: 10px;
-		grid-template-columns: 1fr 1fr 1fr;
-	}
+  #post_list :global(.posts) {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
