@@ -9,7 +9,7 @@ interface SpeakerProps {
 export default function Speaker({ speaker }: SpeakerProps) {
   return (
     <div>
-      <Image
+      <img
         className="image"
         src={speaker?.speakerImage.mediaItemUrl}
         alt={speaker?.speakerImage.altText}
